@@ -5,6 +5,13 @@ class Doodad
   {
     myNum = 0;
   }
-  public double getNum(){/* your java code */}
-  public void setNum(double n){/* your java code */}
+
+
+  double getmyNum() {
+    return myNum;
+  }
+
+  void setmyNum(double myNum_) {
+    myNum = myNum_;
+  }
 }
